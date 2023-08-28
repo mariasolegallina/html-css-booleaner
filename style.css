@@ -1,17 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-/* ul {
-    list-style: none;
-} */
 
 header {
     background-color: #4ea0ff;
     background-image: url(./img/pattern.png);
     background-repeat: repeat;
     height: 70px;
+}
+
+ul,
+ol{
+    margin: 20px;
 }
 
 #logo-the-booleaner {
@@ -32,6 +34,17 @@ header {
     color: #828282;
 }
 
-.photo-caption{
+.photo-caption {
     font-size: 10px;
+    margin: 0;
+}
+
+table {
+    text-align: left;
+    border-spacing: 0;
+    
+}
+
+thead {
+    background-color: #22a9e5;
 }
