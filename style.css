@@ -11,6 +11,10 @@ header {
     height: 70px;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 ul,
 ol{
     margin: 20px;
@@ -20,10 +24,20 @@ ol{
     width: 150px;
 }
 
+/* stili testo */
 .grey-title-14 {
     font-size: 14px;
+    font-weight: bold;
     color: #828282;
 }
+
+.white-title-16 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
 
 #written-by {
     color: #30aee7;
@@ -42,6 +56,7 @@ ol{
 table {
     text-align: left;
     border-spacing: 0;
+    margin-bottom: 20px;
 
 }
 
@@ -52,4 +67,12 @@ tr:nth-child(odd) {
 th {
     background-color: #22a9e5;
     color: white;
+}
+
+.container {
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin bottom: 10px;
 }
