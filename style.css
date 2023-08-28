@@ -42,9 +42,14 @@ ol{
 table {
     text-align: left;
     border-spacing: 0;
-    
+
 }
 
-thead {
+tr:nth-child(odd) {
+    background-color: #b1e6f2;
+  }
+
+th {
     background-color: #22a9e5;
+    color: white;
 }
